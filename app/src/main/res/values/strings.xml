@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movie Night Game</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_category">Choose a category</string>
+    <string name="title_activity_question">Questions</string>
+    <string name="title_activity_scores">Leader Board</string>
+    <string name="Leaderboard">LeaderBoard</string>
+    <string name="Score">Score</string>
+    <string name="Player">Player</string>
+    <string name="SecondScore">SecondScore</string>
+    <string name="SecondPlayer">SecondPlayer</string>
+    <string name="ThirdScore">ThirdScore</string>
+    <string name="ThirdPlayer">ThirdPlayer</string>
+    <string name="FourthScore">FourthScore</string>
+    <string name="FourthPlayer">FourthPlayer</string>
+    <string name="FifthScore">FifthScore</string>
+    <string name="FifthPlayer">FifthPlayer</string>
+    <string name="Restart">RestartButton</string>
+    <string name="Play_Again">Restart</string>
+</resources>

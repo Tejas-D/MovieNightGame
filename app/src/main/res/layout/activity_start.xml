@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".startActivity"
+    android:backgroundTint="@color/abc_primary_text_material_dark"
+    android:backgroundTintMode="src_in"
+    android:background="#9f00ddc9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to Movie Night"
+        android:id="@+id/textView"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff00f3ff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameTxtBox"
+        android:hint="Enter Your Name"
+        android:layout_marginBottom="58dp"
+        android:layout_above="@+id/gameStartBtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:id="@+id/gameStartBtn"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="startGame" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatarImgView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="31dp"
+        android:layout_alignRight="@+id/nameTxtBox"
+        android:layout_alignEnd="@+id/nameTxtBox"
+        android:layout_alignLeft="@+id/nameTxtBox"
+        android:layout_alignStart="@+id/nameTxtBox"
+        android:layout_above="@+id/nameTxtBox"
+        android:onClick="changeImage"
+        android:src="@drawable/genavatar" />
+</RelativeLayout>
